@@ -8,5 +8,5 @@ spec:
     
 apps:
   - loki-stack
-  - traffic-test-moni-master
+  - proGrafana
 
