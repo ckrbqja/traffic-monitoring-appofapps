@@ -1,13 +1,12 @@
 spec:
   destination:
     server: https://kubernetes.default.svc
-    namespace: argo
+    namespace: monitoring
   source:
-    repoURL: https://github.com/ckrbqja/traffic-test-appofapps.git
+    repoURL: https://github.com/ckrbqja/traffic-monitoring-appofapps.git
     targetRevision: HEAD
     
 apps:
-  - traffic-delivery-fastapi
-  - traffic-peak-spring
-  - traffic-return-go
+  - loki-stack
+  - traffic-test-moni-master
 
