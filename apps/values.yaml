@@ -1,7 +1,7 @@
 spec:
   destination:
     server: https://kubernetes.default.svc
-    namespace: monitoring
+    namespace: argo
   source:
     repoURL: https://github.com/ckrbqja/traffic-monitoring-appofapps.git
     targetRevision: HEAD
