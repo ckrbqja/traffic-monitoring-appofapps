@@ -8,5 +8,5 @@ spec:
     
 apps:
   - loki-stack
-  - proGrafana
+  - pro-grafana
 
