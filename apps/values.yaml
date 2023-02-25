@@ -9,4 +9,4 @@ spec:
 apps:
   - loki-stack
   - pro-grafana
-
+  - influxdb
